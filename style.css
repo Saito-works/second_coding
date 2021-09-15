@@ -1,0 +1,240 @@
+.main_bg{
+  min-height: 100vh;
+  align-items: center;
+  position: relative;
+  margin-bottom: -375px;
+}
+
+.main_bg .bg{
+text-align: center;
+position: relative;
+}
+
+.logo{
+  position: relative;
+  left: 275px;
+  top: -730px;
+}
+
+.main_title{
+  position: relative;
+  top: -720px;
+  left: 440px;
+}
+
+.title{
+  position: relative;
+  top: -700px;
+  left: 320px;
+}
+
+.main_main{
+  background-color: rgb(253, 229, 184);
+  text-align: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: -10px;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn > button{
+  height: 57px; 
+  width:373px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  background-color: green;
+  border-radius: 10px;
+  font-size: 22px;
+  color: white;
+}
+.btn > button ::after{
+  content: ();
+  
+}
+.buy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow{
+  position:relative;
+  right: -85px;
+}
+
+.text{
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.text >p {
+  margin-top: 15px;
+}
+
+.cost{
+  margin-top: 25px;
+  font-size: 12px;
+}
+
+
+.promote2{
+  margin: auto;
+  margin-top: 150px;
+  width: 800px;
+  display: block;
+  border: dotted 10px rgb(255, 208, 121);
+  border-radius: 20px;
+  padding-top: 50px;
+}
+
+.img+{
+  margin-top: 30px;
+  display: block;
+  flex-direction: column;
+}
+
+.link{
+  margin-top: 30px;
+}
+
+li{
+  list-style: none;
+  text-align: left;
+  margin-left: 100px;
+  margin-bottom: 3px;
+  color: green;
+  font-size: 15px;
+  font-weight: 20px;
+}
+
+li ::before{
+  content: "✔";
+  font-size: 18px;
+  color: yellow;
+}
+
+ul{
+  margin-bottom: 25px;
+}
+
+.yuzu_ginger{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.ginger{
+  margin-left: 70px;
+}
+
+.main_recomend{
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(252, 222, 126);
+  background-image: url(imges/c03_bg.png);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.reco_title{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.ex{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.cacth{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cacth .tow{
+margin-left: -190px;
+margin-top: 90px;
+}
+
+.rec_btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.main_end{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(253, 229, 184);
+}
+
+.end_content{
+  padding: 40px 120px 40px 120px;
+  width: auto;
+  height: auto;
+  border: dotted 5px rgb(255, 208, 121);
+  background-color: rgb(255, 223, 164);
+}
+
+.texts{
+  margin-top: 20px;
+}
+
+.text1 > h2{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.text2{
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.text3{
+  font-size: 5px;
+  margin-top: 10px;
+}
+
+.end_btn{
+margin-top: 30px;
+}
+
+footer{
+  background-color: rgb(252, 222, 126);
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.sns{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.sns > p{
+  margin-left: 20px;  
+}
+
+.privacy > a{
+  font-size: 14px;
+  padding-top: 25px;
+}
+
+.privacy > p{
+  font-size: 12px;
+  margin-top: 25px;
+}
